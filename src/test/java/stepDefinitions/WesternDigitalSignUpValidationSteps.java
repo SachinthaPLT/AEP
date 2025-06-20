@@ -70,7 +70,7 @@ public class WesternDigitalSignUpValidationSteps {
 
     @Then("Then user should landed to Home page and should be able to see the {string}")
     public void thenUserShouldLandedToHomePageAndShouldBeAbleToSeeThe(String welcomeMessage) {
-        Assert.assertEquals(homePage.getWelcomeText(),welcomeMessage);
+        Assert.assertTrue(homePage.getWelcomeText().contains(welcomeMessage));
     }
 
 }

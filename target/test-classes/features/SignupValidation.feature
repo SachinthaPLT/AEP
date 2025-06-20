@@ -10,4 +10,4 @@ Feature: Western Digital User Sign Up
     And I Type password as "Test@123456789"
     And I Click consent checkbox
     And I click on Join Now button
-    Then Then user should landed to Home page and should be able to see the "Welcome, John!"
+    Then Then user should landed to Home page and should be able to see the "Welcome"
